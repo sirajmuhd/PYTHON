@@ -1,5 +1,11 @@
-courses = {
-    "Python": 4,
-    "Data Science": 2
-}
-print(courses)
+class course :
+    def __init__(self,language,framework):
+        self.language = language
+        self.framework = framework
+    
+obj1 = course("Python", "Django")
+
+print(obj1.language)
+print(obj1.framework)
+
+    
