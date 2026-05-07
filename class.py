@@ -1,11 +1,7 @@
-class course :
-    def __init__(self,language,framework):
-        self.language = language
-        self.framework = framework
-    
-obj1 = course("Python", "Django")
 
-print(obj1.language)
-print(obj1.framework)
-
-    
+num_1 = 10
+num_2 = 20
+str_1 = "Python"
+str_2 = "is Awesome."
+print(num_1+num_2)
+print(str_1+" "+str_2)
