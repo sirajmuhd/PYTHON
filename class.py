@@ -1,7 +1,6 @@
+def total(*numbers):
+    result = sum(numbers)
+    print("total ",result)
 
-num_1 = 10
-num_2 = 20
-str_1 = "Python"
-str_2 = "is Awesome."
-print(num_1+num_2)
-print(str_1+" "+str_2)
+total(1,2,3,4,5)
+total(22,33,44)
